@@ -1,0 +1,5 @@
+TAREA CLASE 2:
+-Crea una funcion de sumar y restar.
+-Vamos a decirle a la maquina que funcion tiene que correr, dependiendo del operador aritmetico(+,-,/,*,etc).
+-Si el operador es +,vamos a usar la funcion para sumar, caso contrario, vamos a usar la funcion para restar.
+-Mostrar el resultado en consola.
