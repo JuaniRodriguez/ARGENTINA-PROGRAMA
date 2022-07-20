@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejerc clase6 AP</title>
+    <link rel="stylesheet" href="normalize.css">
+</head>
+
+    <body>
+
+        <form class="formulario">
+        
+            <label>Introduzca la cantidad de integrantes: </label>
+            <input type="number" id="miembros">    
+            <button type="submit"  id="continuar">continuar</button><br>
+        
+        <div id="integrantes">
+        
+        
+        </div>
+        
+        <button type="submit"  id="calcular" class="oculto">calcular</button><br><br>
+        
+        <div  id="analisis" class="oculto">
+            <label>mayor edad:</label><input type="number"  id="mayor"><br>
+            <label>menor edad:</label><input type="number"  id="menor"><br>
+            <label>promedio:</label><input type="number"  id="promedio"><br>
+        </div>
+        
+        <button type="reset" id="resetear">resetear</button>
+
+        <ul id="errores">
+
+        </ul>
+
+        </form>  
+        
+        
+            <script src="./modulos.js"></script>
+            <script src="./funciones.js"></script>
+
+        </body>
+    
+
+</html>
